@@ -52,7 +52,7 @@
 }
 
 .carousel-caption {
-    top: 50%;
+    top: 25%;
     bottom: initial!important;
 }
 
@@ -68,6 +68,12 @@
     font-family: 'Merriweather', serif;
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Abril Fatface', cursive;
+}
+
+@media screen and (max-width: 500px) {
+    .carousel-caption h5 {
+        font-size: 40px;
+    }
 }
 
 
